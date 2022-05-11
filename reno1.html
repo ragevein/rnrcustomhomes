@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="files/Favi.png" type="image/gif" sizes="16x16">
+    <title>Custom Built Homes by RnR</title>
+    <link rel="stylesheet"  type="text/css" href="style.css">    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=PT+Serif&family=Saira+Semi+Condensed&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=PT+Serif&display=swap" rel="stylesheet">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <header><a href="index.html"><img src="files/RNRlogo_slim.png" id="logo"></a>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">Our Story</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><button class="open-button">Contact</button></li>
+            </ul>
+        </nav>    
+    </header>
+    <div class="about-container"><h4>Renovation</h4>
+       
+    </div>    
+    <div class="img-container">
+        <div class="card"> This is a great looking renovation we did with ceiling moldings and a built in media center.</div>
+        <div class="img-card"><a href="img/reno/001_Living Room.jpg" target="_blank"><img src="img/reno/001_Living Room.jpg" alt=""></a></div>
+        <div class="img-card"><a href="img/reno/002_Living Room.jpg" target="_blank"><img src="img/reno/002_Living Room.jpg" alt=""></a></div>
+        <div class="img-card"><a href="img/reno/003_Living Room.jpg" target="_blank"><img src="img/reno/003_Living Room.jpg" alt=""></a></div>
+        <div class="img-card"><a href="img/reno/004_Living Room.jpg" target="_blank"><img src="img/reno/004_Living Room.jpg" alt=""></a></div>
+        <div class="img-card"><a href="img/reno/005_Living Room.jpg" target="_blank"><img src="img/reno/005_Living Room.jpg" alt=""></a></div>
+        <div class="img-card"><a href="img/reno/006_Dining Area.jpg" target="_blank"><img src="img/reno/006_Dining Area.jpg" alt=""></a></div>
+        <div class="img-card"><a href="img/reno/007_Kitchen.jpg" target="_blank"><img src="img/reno/007_Kitchen.jpg" alt=""></a></div>
+        <div class="img-card"><a href="img/reno/008_Kitchen.jpg" target="_blank"><img src="img/reno/008_Kitchen.jpg" alt=""></a></div>
+        <div class="img-card"><a href="img/reno/009_Kitchen.jpg" target="_blank"><img src="img/reno/009_Kitchen.jpg" alt=""></a></div>
+        <div class="img-card"><a href="img/reno/010_Kitchen.jpg" target="_blank"><img src="img/reno/010_Kitchen.jpg" alt=""></a></div>
+        <div class="img-card"><a href="img/reno/011_Kitchen.jpg" target="_blank"><img src="img/reno/011_Kitchen.jpg" alt=""></a></div>
+        <div class="img-card"><a href="img/reno/012_Kitchen.jpg" target="_blank"><img src="img/reno/012_Kitchen.jpg" alt=""></a></div>
+        <div class="img-card"><a href="img/reno/013_Kitchen.jpg" target="_blank"><img src="img/reno/013_Kitchen.jpg" alt=""></a></div>
+        <div class="img-card"><a href="img/reno/014_Bathroom.jpg" target="_blank"><img src="img/reno/014_Bathroom.jpg" alt=""></a></div>
+        <div class="img-card"><a href="img/reno/015_Room.jpg" target="_blank"><img src="img/reno/014_Bathroom.jpg" alt=""></a></div>
+        <div class="img-card"><a href="img/reno/016_Room.jpg" target="_blank"><img src="img/reno/016_Room.jpg" alt=""></a></div>
+        <div class="img-card"><a href="img/reno/017_Room.jpg" target="_blank"><img src="img/reno/017_Room.jpg" alt=""></a></div>
+        <div class="img-card"><a href="img/reno/018_Room.jpg" target="_blank"><img src="img/reno/018_Room.jpg" alt=""></a></div>
+        <div class="img-card"><a href="img/reno/019_Hallway.jpg" target="_blank"><img src="img/reno/019_Hallway.jpg" alt=""></a></div>
+        <div class="img-card"><a href="img/reno/020_Hallway.jpg" target="_blank"><img src="img/reno/020_Hallway.jpg" alt=""></a></div>
+    </div>
+    <div class="tour-container">
+       
+    </div>
+    <footer>
+        <div class="row"><a href="https://www.facebook.com/RNR-Custom-HOMES-104077824735972">Like us on Face Book <img src="img/nav/f_logo_RGB-White_58.png"></a></div>
+        <div class="row"><a href="https://www.instagram.com/rnrcustomhomes">Instagram <img src="img/nav/igwhite.png"></a></div>
+        <div class="row">© 2020 RnR Custom Homes LLC<br>- the end - </div>
+    </footer>
+    <dialog class="modal" id="modal">
+        <div>
+            <button class="close-button">X</button><h3 id="tel"> (208) 401-4651<br>(208) 860-0861</h3>
+            <img src="img/headshot.jpg" alt=""><div class="email">benricheson1@gmail.com<br>omikelle@hotmail.com</div>
+            <br>Give us a call or send us a message and we'll get back to you as soon as possible.
+            <form action="msg_prcs.php" method="post" name="msg">
+            <h3>Choose a topic: </h3> 
+            <select name="topic">
+                <option value="Custom Build">Custom Build</option>
+                <option value="Spec Home">Spec Home</option>
+                <option value="Addon/Renovation">Addon/Renovation</option>
+                <option value="Business">Business</option>
+                <option value="other">Other</option>
+            </select>
+            <h3>Message: </h3><textarea name="subject" rows="20" cols="150"></textarea><br>
+            <h3>Contact info:</h3> <input type="text" name="contact" required><br> 
+            <button class="send">SEND</button></form>
+        </div>
+    </dialog>
+</body>
+</html>
