@@ -42,6 +42,14 @@ openModal.addEventListener('click', () => {
     modal.showModal();    
 })
 
+const modal = document.getElementById('modal');
+if (typeof modal.showModal === 'function') {
+    modal.showModal();
+} else {
+    modal.style.display = 'block'; // Fallback for browsers that don't support <dialog>
+}
+
+
 closeModal.addEventListener('click', () => {
     modal.close();
 })
